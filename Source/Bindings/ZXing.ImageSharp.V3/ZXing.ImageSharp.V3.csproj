@@ -31,7 +31,10 @@
 
   <ItemGroup>
     <PackageReference Include="SixLabors.ImageSharp" Version="3.0.0" />
-    <PackageReference Include="ZXing.Net" Version="0.16.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\lib\netstandard\ZXing.Net.csproj" />
   </ItemGroup>
 
 </Project>
